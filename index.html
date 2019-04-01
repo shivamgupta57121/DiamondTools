@@ -1,0 +1,77 @@
+<html>
+    <head>
+
+            <script src="js/angular.min.js"></script>
+            <script src="js/start.js"></script>
+            <script src="js/angular-ui-router.min.js"></script>
+            <script src="./js/jquery-3.3.1.js"></script>
+            <script src="./js/bootstrap.js"></script>
+            <link rel="stylesheet" href="lib/css/bootstrap.css" >
+        <link rel="stylesheet" type="text/css" href="lib/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="lib/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="lib/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/queries.css">
+        
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <title>
+          Diamond Tools Store  
+        </title>
+    </head>
+    <body ng-app="app">
+       <header>
+            <nav>
+                <div class="row">
+                    <img src="lib/images/logo.png" alt="Shreejee Trading logo" class="logo">
+                    <ul class="company">
+                        <li>  SHREEJEE TRADING</li>
+                    </ul>
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#index">Home</a></li>
+                        <li><a href="#!/products">Products</a></li>
+                        <li><a href="#!/sign">Sign In</a></li>
+                        <li><a href="#!/contact">Contact Us</a></li>
+                    </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                </div>
+            </nav>
+        </header>
+
+         
+        <div ui-view >
+        
+        </div>
+
+
+        
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">iOS App</a></li>
+                        <li><a href="#">Android App</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2018 by Shreejee Trading. All rights reserved.
+                </p>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="lib/js/jquery.waypoints.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
